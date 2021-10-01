@@ -19,36 +19,38 @@ package "ECサイト" as target_system {
       １文字なら "主" とか "従" まど日本語でも記載可能
      '/
  
-    entity "顧客マスタ" as customer <m_customers> <<M,MASTER_MARK_COLOR>> {
-        + customer_code [PK]
+    entity "顧客テーブル" as customer <m_customers> <<M,MASTER_MARK_COLOR>> {
+        + custom_code [PK]
         --
         pass
         name
+        birthday
         address
         tel
         mail
         del_flag
-        reg_date
+        registerday
     }
 
     entity "購入テーブル" as order <order> <<T,TRANSACTION_MARK_COLOR>> {
         + order_id [PK]
         --
-        # customer_code [FK]
-        purchase_date
+        # custom_code
+        today
         total_price
     }
 
-    entity "購入詳細テーブル" as order_detail  <order_detail> <<T,TRANSACTION_MARK_COLOR>> {
+    entity "購入テーブル詳細" as order_detail  <order_detail> <<T,TRANSACTION_MARK_COLOR>> {
         + detail_id[PK]
-        + order_id[PK]
+        + order_id[PK][FK]
         --
-        # item_code [FK]
+        # item_code
         price
+        volumenum
         num
     }
 
-    entity "商品マスタ" as items <m_items> <<M,MASTER_MARK_COLOR>> {
+    entity "商品テーブル" as items <m_items> <<M,MASTER_MARK_COLOR>> {
         + item_code [PK]
         --
         item_name
@@ -57,14 +59,14 @@ package "ECサイト" as target_system {
         image
         detail
         del_flag
-        reg_date
+        registerdate
     }
 
-    entity "カテゴリマスタ" as category <m_category> <<M,MASTER_MARK_COLOR>> {
+    entity "カテゴリテーブル" as category <m_category> <<M,MASTER_MARK_COLOR>> {
         + category_id [PK]
         --
         name
-        reg_date
+        registerday
     }
   }
 
