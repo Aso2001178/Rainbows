@@ -6,7 +6,7 @@
 |-----|--|--|--|--|
 |order_id|bigint(20)|○|○||
 |custom_code|varchar(50)||○|○|
-|purchase_date|date||○||
+|today|date||○||
 |total_price|int(11)||○||
  
 ## d_purchase_detail
