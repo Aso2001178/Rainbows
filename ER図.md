@@ -11,7 +11,7 @@ skinparam class {
 }
  
 !define MASTER_MARK_COLOR yellow 
-!define TRANSACTION_MARK_COLOR green
+!define TRANSACTION_MARK_COLOR yellowgreen
  
 package "ECサイト" as target_system {
     /'
