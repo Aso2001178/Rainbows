@@ -10,8 +10,8 @@ skinparam class {
     ArrowColor Black
 }
  
-!define MASTER_MARK_COLOR Orange 
-!define TRANSACTION_MARK_COLOR DeepSkyBlue
+!define MASTER_MARK_COLOR yellow 
+!define TRANSACTION_MARK_COLOR green
  
 package "ECサイト" as target_system {
     /'
