@@ -1,3 +1,5 @@
+'''
+
 @startuml
 
 skinparam class {
@@ -74,3 +76,4 @@ items          }o-le-||     category
 
 
 @enduml
+'''
