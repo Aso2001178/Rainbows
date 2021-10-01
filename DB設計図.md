@@ -17,6 +17,7 @@
 |order_id|bigint(20) |○|○|○|
 |item_code|int(11)||○||
 |price|int(11)||○||
+|volumenum|int(11)||○||
 |num|int(11)||○||
  
 ## m_customers
@@ -26,11 +27,12 @@
 |custom_code|varchar(50)|○|○||
 |pass|varchar(50)||○||
 |name|varchar(20)||○||
+|birthday|date||○||
 |address|varchar(100)||○||
 |tel|varchar(20)||○||
 |mail|varchar(100)||○||
 |del_flag|int(1)||||
-|reg_date|date||○||
+|registerday|date||○||
  
 ## m_category
  
@@ -38,7 +40,7 @@
 |-----|--|--|--|--|
 |category_id|int(11)|○|○||
 |name|varchar(20)||○||
-|registerday_date|date||○||
+|registerday|date||○||
  
 ## m_items
  
@@ -51,4 +53,4 @@
 |image|varchar(200)||○||
 |detail|varchar(500)||||
 |del_flag|int(11)||||
-|reg_date|date||○||
+|registerday|date||○||
