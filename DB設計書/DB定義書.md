@@ -11,7 +11,7 @@
 |----|-----|--|--|--|--|
 |オーダーID|order_id|bigint(20)|○|○||
 |顧客コード|custom_code|varchar(50)||○||
-|購入日|today|date||○||
+|購入日|purday|date||○||
 |総額|total_price|int(11)||○||
  
 ### 購入テーブル詳細(d_purchase_detail)
