@@ -21,7 +21,6 @@
 |オーダーID|order_id|bigint(20)|○|○|○|
 |商品コード|item_code|int(11)||○||
 |価格|price|int(11)||○||
-|巻数|volumenum|int(11)||○||
 |数量|num|int(11)||○||
  
 
