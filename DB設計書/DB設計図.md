@@ -26,9 +26,7 @@
 |custom_code|varchar(50)|○|○||
 |pass|varchar(50)||○||
 |name|varchar(20)||○||
-|birthday|date||○||
 |address|varchar(100)||○||
-|tel|varchar(20)||○||
 |mail|varchar(100)||○||
 |del_flag|int(1)||||
 |registerday|date||○||
