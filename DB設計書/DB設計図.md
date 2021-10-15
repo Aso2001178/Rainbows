@@ -6,7 +6,7 @@
 |-----|--|--|--|--|
 |order_id|bigint(20)|○|○||
 |custom_code|varchar(50)||○|○|
-|today|date||○||
+|purday|date||○||
 |total_price|int(11)||○||
  
 ## d_purchase_detail
@@ -17,7 +17,6 @@
 |order_id|bigint(20) |○|○|○|
 |item_code|int(11)||○||
 |price|int(11)||○||
-|volumenum|int(11)||○||
 |num|int(11)||○||
  
 ## m_customers
