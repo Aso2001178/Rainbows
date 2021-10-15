@@ -24,9 +24,7 @@ package "ECサイト" as target_system {
         --
         pass
         name
-        birthday
         address
-        tel
         mail
         del_flag
         registerday
