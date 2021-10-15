@@ -36,7 +36,7 @@ package "ECサイト" as target_system {
         + order_id [PK]
         --
         # custom_code
-        today
+        purday
         total_price
     }
 
@@ -46,7 +46,6 @@ package "ECサイト" as target_system {
         --
         # item_code
         price
-        volumenum
         num
     }
 
