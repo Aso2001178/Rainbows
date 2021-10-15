@@ -30,9 +30,7 @@
 |顧客コード|costom_code|varchar(50)|○|○||
 |パスワード|pass|varchar(50)|○|○|○|
 |氏名|name|varchar(20)||○||
-|生年月日|birthday|date||○||
 |住所|address|varchar(100)||○||
-|電話番号|tel|varchar(20)||○||
 |メールアドレス|mail|varchar(100)||○||
 |削除フラグ|del_flag|int(1)||||
 |登録日|registerday|date||○||
