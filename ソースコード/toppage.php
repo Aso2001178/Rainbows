@@ -41,7 +41,7 @@
                 <div class="zyuzyutu"><a href="comic2.php" style="float: left;color: black;"><img src="img/呪術廻戦.png" width="130" height="193" class="funciton_img1"></a></div><br>
             </div>
             <div class="comic2">
-                <div class="zyozyo"><a href="comic3.php" style="float: left;color: black;"><img src="img/zyozyo.png" width="130" height="193" class="funciton_img1"></a></div>
+                <div class="zyozyo"><a href="comic3.php" style="float: left;color: black;"><img src="img/ジョジョ.png" width="130" height="193" class="funciton_img1"></a></div>
                 <div class="naruto"><a href="comic4.php" style="float: left;color: black;"><img src="img/ナルト.png" width="130" height="193" class="funciton_img1"></a></div><br>
             </div>
             <div class="comic3">
