@@ -10,30 +10,43 @@
 <div class="container">
     <div id="parent">
         <div id="child1">
-    <header>
-        <div class="icon"><img src="img/本アイコン.png" width="75" height="75"></div>
-        <div class="title"><h1>comic store</h1></div>
-    </header>
+            <header>
+                <div class="icon"><img src="img/本アイコン.png" width="75" height="75"></div>
+                <div class="title"><h1>comic store</h1></div>
+            </header>
 
 
-    <div class="link_btn">
-        <div class="btn2"><a href="register.php" >会員登録はこちら！</a></div>
-    </div>
+            <div class="link_btn">
+                <div class="btn2"><a href="register.php" >会員登録はこちら！</a></div>
+            </div>
 
 
-    <div class="login">
-        //ログイン機能
-    </div>
+            <div class="login">
+                <div class="content">
+                    <h1>ログイン</h1>
+                    <div class="control">
+                        <label for="login"><p>メールアドレス</p></label>
+                        <form action="login-out.php" method="post">
+                            <input type="text" name="mail" id="login">
+                    </div>
+                    <div class="control">
+                        <label for="login"><p>パスワード</p></label>
+                        <input type="password" name="pass" id="login"required>
+                    </div>
+                    <p><button type="submit" id="action" value="認証">認証</button></p>
+                    </form>
+                </div>
+            </div>
 
-    <div class="search">
+            <div class="search">
 
-    </div>
-<div class="btn">
-    <a href="cart.php" class="button">カート</a><br>
-    <a href="memberinfo.php" class="button">登録情報</a><br>
-    <a href="history.php" class="button">購入履歴</a><br>
-    <a href="withdraw.php" class="button">退会</a>
-</div>
+            </div>
+            <div class="btn">
+                <a href="cart.php" class="button">カート</a><br>
+                <a href="memberinfo.php" class="button">登録情報</a><br>
+                <a href="history.php" class="button">購入履歴</a><br>
+                <a href="withdraw.php" class="button">退会</a>
+            </div>
         </div>
         <div id="child2">
             <div class="comic">
