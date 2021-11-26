@@ -1,0 +1,138 @@
+@import url(sanitize.css);
+.container{
+    max-width:900px;
+    margin:0 auto;
+    box-shadow: 0 0 10px rgba(0,0,0, .3);
+    background-color: #F5F5F5;
+    border: solid 1px #333333;
+}
+@media {
+    #parent {
+        display: flex;
+    }
+    #child1 {
+        flex-grow: 1;
+        text-align: center;
+    }
+    #child2 {
+        flex-grow: 1;
+    }
+}
+.icon{
+    margin-top: 30px;
+    text-align: center;
+}
+.title{
+    font-size: 23px;
+    font-family: 'Russo One', sans-serif;
+    color: red;
+    text-shadow:
+            1px 1px 0px #000, -1px -1px 0px #000,
+            -1px 1px 0px #000,  1px -1px 0px #000,
+            1px 0px 0px #000, -1px  0px 0px #000,
+            0px 1px 0px #000,  0px -1px 0px #000;
+}
+.comicimg{
+    margin-top: 60px;
+    text-align: center;
+}
+.comictitle{
+    text-align: center;
+    font-size: 20px;
+}
+.comicprice{
+    text-align: left;
+}
+.cartin{
+    font-size: 30px;
+}
+.button {
+    display       : inline-block;
+    border-radius : 5%;          /* 角丸       */
+    font-size     : 16pt;        /* 文字サイズ */
+    text-align    : center;      /* 文字位置   */
+    cursor        : pointer;     /* カーソル   */
+    width         : 280px;
+    height        : 76px;
+    line-height   : 76px;
+    background    : #00007f;     /* 背景色     */
+    color         : #ffffff;     /* 文字色     */
+    opacity       : 0.9;         /* 透明度     */
+    transition    : .3s;         /* なめらか変化 */
+    box-shadow    : 6px 6px 3px #666666;  /* 影の設定 */
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.button:hover {
+    box-shadow    : none;        /* カーソル時の影消去 */
+    opacity       : 1;           /* カーソル時透明度 */
+}
+.btn2{
+    display       : inline-block;
+    border-radius : 42%;          /* 角丸       */
+    font-size     : 16pt;        /* 文字サイズ */
+    text-align    : center;      /* 文字位置   */
+    cursor        : pointer;     /* カーソル   */
+    padding       : 19px 37px;   /* 余白       */
+    background    : #6666ff;     /* 背景色     */
+    color         : white;     /* 文字色     */
+    line-height   : 1em;         /* 1行の高さ  */
+    opacity       : 0.9;         /* 透明度     */
+    transition    : .3s;         /* なめらか変化 */
+    box-shadow    : 6px 6px 3px #666666;  /* 影の設定 */
+    border: solid 1px #333333;
+    margin-top: 15px;
+    margin-bottom: 30px;
+
+}
+.btn2:hover {
+    box-shadow    : none;        /* カーソル時の影消去 */
+    opacity       : 1;           /* カーソル時透明度 */
+}
+.comicprice{
+    text-align: right;
+    margin-right: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.volume_number{
+    text-align: left;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+#cart_btn{
+    position: relative;
+    left: 200px;
+    top: 55px;
+    width: 190px;
+    text-align: center;
+    border: 1px solid #333;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: darkorange;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 25px;
+    transition: .4s;
+}
+#cart_btn:hover{
+    opacity: .5;
+}
+.summary_title{
+    margin-top: 110px;
+    margin-left: 45px;
+}
+.line{
+    width: 450px;
+    border-bottom: 1px solid #686868;
+    position: relative;
+    left: 40px;
+}
+.comic_summary{
+    margin-top: 15px;
+    text-align: center;
+}
+a{
+    text-decoration:none;
+    color : inherit;
+}
