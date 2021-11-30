@@ -8,7 +8,7 @@
 <body>
 <h2>退会されますか？</h2>
 <form action="manngasaito-taikai-result.php" method="post">
-    <input type="text" name="custom_code">
+    <input type="text" name="pass">
     <button type="submit">退会する</button>
 </form>
 <hr>
