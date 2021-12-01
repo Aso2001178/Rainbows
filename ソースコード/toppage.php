@@ -16,7 +16,7 @@
                 <div class="title"><h1>comic store</h1></div>
             </header>
             <div class="link_btn">
-                <div class="btn2"><a href="register.php" >会員登録はこちら！</a></div>
+                <div class="btn2"><a href="customer-input.php" >会員登録はこちら！</a></div>
             </div>
             <div class="login">
                 <div class="content">
@@ -40,7 +40,7 @@
                 <a href="cart.php" class="button">カート</a><br>
                 <a href="memberinfo.php" class="button">登録情報</a><br>
                 <a href="history.php" class="button">購入履歴</a><br>
-                <a href="withdraw.php" class="button">退会</a>
+                <a href="taikai.php" class="button">退会</a>
             </div>
         </div>
         <div id="child2">
@@ -77,4 +77,3 @@
 </div>
 </body>
 </html>
-
