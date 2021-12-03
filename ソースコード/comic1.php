@@ -19,16 +19,14 @@
             <div class="link_btn">
                 <div class="btn2"><a href="register.php" >会員登録はこちら！</a></div>
             </div>
-            <div class="login">
-                //ログイン機能
-            </div>
+           
             <div class="search">
             </div>
             <div class="btn">
                 <a href="cart.php" class="button">カート</a><br>
                 <a href="memberinfo.php" class="button">登録情報</a><br>
                 <a href="history.php" class="button">購入履歴</a><br>
-                <a href="withdraw.php" class="button">退会</a><br>
+                <a href="taikai.php" class="button">退会</a>
                 <a href="toppage.php" class="button">トップページ</a>
             </div>
         </div>
