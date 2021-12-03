@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>退会</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="">
 </head>
 <body>
 <h2>退会</h2>
