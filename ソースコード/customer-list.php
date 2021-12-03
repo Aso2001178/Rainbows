@@ -19,8 +19,8 @@ $pdo = new PDO('mysql:host=mysql147.phy.lolipop.lan;
  * その際に、22行目のコメントをはずし、23行目をコメントアウトする
  */
 $sql = $pdo->prepare('SELECT * FROM m_customers WHERE mail = ?');
-//$sql->execute([$_SESSION['m_customers']['mail']]);
-$sql->execute(['1234567@111']);
+$sql->execute([$_SESSION['m_customers']['mail']]);
+//$sql->execute(['1234567@111']);
 foreach ($sql as $row){
     echo $row['name'];
     echo $row['address'];
