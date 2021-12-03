@@ -4,9 +4,11 @@
 <head>
 	<meta charset="UTF-8">
 	<title>購入履歴</title>
-	<link rel="stylesheet" href="">
+	<link rel="stylesheet" href="./css/history.css">
 </head>
 <body>
+<div class="container">
+    <div class="main">
 <?php
 if (isset($_SESSION['m_customers'])) {
 	$pdo = new PDO('mysql:host=mysql147.phy.lolipop.lan;
@@ -44,6 +46,12 @@ if (isset($_SESSION['m_customers'])) {
 	echo '購入履歴を表示するには、ログインしてください。';
 }
 ?>
-<a href="toppage.php">トップページへ</a>
+    </div>
+    <div class="top">
+    <div class="button">
+        <a href="toppage.php">トップページへ</a>
+    </div>
+    </div>
+</div>
 </body>
 </html>
