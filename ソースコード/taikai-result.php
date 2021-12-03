@@ -13,7 +13,7 @@ $pdo=new PDO('mysql:host=mysql147.phy.lolipop.lan;
             'LAA1291127',
             '1234123');
 
-$sql = $pdo->prepare('delete from m_customers where custom_code = ?');
+$sql = $pdo->prepare('delete from m_customers where pass = ?');
 $sql->bindValue(1,($_POST['pass']));
 $sql->execute();
 
