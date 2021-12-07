@@ -1,0 +1,40 @@
+@import url(sanitize.css);
+.container{
+    max-width:900px;
+    margin:0 auto;
+    box-shadow: 0 0 10px rgba(0,0,0, .3);
+    background-color: #f5f5f5;
+    text-align: center;
+    font-size: 16pt;
+}
+.pass{
+    padding: 20px;
+}
+.name{
+    padding: 20px;
+}
+.ad{
+    padding: 20px;
+}
+.mail{
+    padding: 20px;
+}
+.button {
+    display       : inline-block;
+    border-radius : 5%;          /* 角丸       */
+    font-size     : 18pt;        /* 文字サイズ */
+    text-align    : center;      /* 文字位置   */
+    cursor        : pointer;     /* カーソル   */
+    padding       : 12px 12px;   /* 余白       */
+    background    : #000066;     /* 背景色     */
+    color         : #ffffff;     /* 文字色     */
+    line-height   : 1em;         /* 1行の高さ  */
+    transition    : .3s;         /* なめらか変化 */
+    box-shadow    : 6px 6px 3px #666666;  /* 影の設定 */
+    border        : 2px solid #000066;    /* 枠の指定 */
+}
+.button:hover {
+    box-shadow    : none;        /* カーソル時の影消去 */
+    color         : #000066;     /* 背景色     */
+    background    : #ffffff;     /* 文字色     */
+}
