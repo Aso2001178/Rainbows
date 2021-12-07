@@ -17,7 +17,7 @@
 
 
             <div class="link_btn">
-                <div class="btn2"><a href="register.php" >会員登録はこちら！</a></div>
+                <div class="btn2"><a href="customer-input.php" >会員登録はこちら！</a></div>
             </div>
 
 
