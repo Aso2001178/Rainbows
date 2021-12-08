@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="">
 </head>
 <body>
+<div class="container">
 <?php
 unset($_SESSION['product'][$_REQUEST['item_code']]);
 echo 'カートから商品を削除しました。';
-echo '<hr>';
 require 'cart.php';
 ?>
+</div>
 </body>
 </html>
