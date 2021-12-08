@@ -12,6 +12,21 @@ body{
     border: solid 1px #333333;
     background-image: none;
 }
+.icon{
+    text-align: center;
+    margin-top: 15px;
+}
+.title{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Russo One', sans-serif;
+    color: red;
+    text-shadow:
+            1px 1px 0px #000, -1px -1px 0px #000,
+            -1px 1px 0px #000,  1px -1px 0px #000,
+            1px 0px 0px #000, -1px  0px 0px #000,
+            0px 1px 0px #000,  0px -1px 0px #000;
+}
 
 .top{
     text-align:center;
