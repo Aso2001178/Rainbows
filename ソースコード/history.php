@@ -4,10 +4,16 @@
 <head>
 	<meta charset="UTF-8">
 	<title>購入履歴</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Russo+One&display=swap">
+    <link rel="stylesheet" href="css/sanitize.css">
 	<link rel="stylesheet" href="./css/history.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
 <div class="container">
+    <div class="icon"><img src="img/本アイコン.png" width="75" height="75"></div>
+    <div class="title" >comic store</div><br>
     <div class="main">
 <?php
 if (isset($_SESSION['m_customers'])) {
