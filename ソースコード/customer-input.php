@@ -3,10 +3,16 @@
     <head>
         <meta charset="UTF-8">
         <title>customer</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Russo+One&display=swap">
+        <link rel="stylesheet" href="css/sanitize.css">
         <link rel="stylesheet" href="./css/customer.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     </head>
     <body>
     <div class="container">
+        <div class="icon"><img src="img/本アイコン.png" width="75" height="75"></div>
+        <div class="title" >comic store</div><br>
     <form action="customer-out.php" method="post">
         <div class="pass">
         パスワード : <input type="text" name="pass">
