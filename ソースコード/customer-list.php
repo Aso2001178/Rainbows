@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>会員情報</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/customer-list.css">
 </head>
 <body>
 <?php
@@ -21,15 +21,23 @@ $pdo = new PDO('mysql:host=mysql147.phy.lolipop.lan;
 $sql = $pdo->prepare('SELECT * FROM m_customers WHERE mail = ?');
 $sql->execute([$_SESSION['m_customers']['mail']]);
 //$sql->execute(['1234567@111']);
+if(isset($_SESSION['m_customer'])){
 foreach ($sql as $row){
-    echo $row['name'];
-    echo $row['address'];
-    echo $row['mail'];
-    echo $row['pass'];
-
+    echo "氏名 : ",$row['name'];
+    echo "<br />";
+    echo "住所 : ",$row['address'];
+    echo "<br />";
+    echo "メールアドレス : ",$row['mail'];
+    echo "<br />";
+    echo "パスワード : ",$row['pass'];
+    echo "<br />";
+}
+}else {
+    echo 'ログインしてください。';
 }
 $pdo = null;
 
 ?>
+<a href="toppage.php">トップページへ</a>
 </body>
 </html>
