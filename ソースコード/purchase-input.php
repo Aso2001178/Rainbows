@@ -2,15 +2,17 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-	<meta charset="UTF-8">
-	<title>購入手続き</title>
-	<link rel="stylesheet" href="">
+    <meta charset="UTF-8">
+    <title>購入手続き</title>
+    <link rel="stylesheet" href="./css/purchase-input.css">
 </head>
 <body>
+<div class="container">
+    <div class="main">
 <?php
-  echo '名前： ', $_SESSION['m_customers']['name'], '<br>';
-  echo '住所： ', $_SESSION['m_customers']['address'];
-  echo '<hr>';
+echo '名前： ', $_SESSION['m_customers']['name'], '<br>';
+echo '住所： ', $_SESSION['m_customers']['address'];
+echo '<hr>';
 if (!empty($_SESSION['product'])) {
     echo '<table>';
     echo '<th>商品番号</th><th>商品名</th>';
@@ -35,11 +37,16 @@ if (!empty($_SESSION['product'])) {
     echo 'カートに商品がありません。';
 }
 
-  echo '<hr>';
-  echo '<p>内容をご確認いただき、購入を確定してください。</p>';
-  echo '<a href="purchase-output.php">購入を確定する</a>';
-
+echo '<hr>';
+echo '<p>内容をご確認いただき、購入を確定してください。</p>';
 ?>
+        <div class="btndiv">
+        <button type="submit" name="action" value="send" class="button">購入を確定する</button>
+        </div>
+    </div>
+    </div>
 </body>
 </html>
+
+
 
