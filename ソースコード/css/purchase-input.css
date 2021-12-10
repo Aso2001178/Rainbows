@@ -1,0 +1,24 @@
+@import url(sanitize.css);
+.container{
+    max-width:900px;
+    margin:0 auto;
+    box-shadow: 0 0 10px rgba(0,0,0, .3);
+    background-color: #F5F5F5;
+    border: solid 1px #333333;
+}
+.button {
+    display       : inline-block;
+    border-radius : 46%;          /* 角丸       */
+    font-size     : 23pt;        /* 文字サイズ */
+    text-align    : center;      /* 文字位置   */
+    cursor        : pointer;     /* カーソル   */
+    padding       : 9px 30px;   /* 余白       */
+    background    : #ffff1a;     /* 背景色     */
+    color         : #00007f;     /* 文字色     */
+    line-height   : 1em;         /* 1行の高さ  */
+    transition    : .3s;         /* なめらか変化 */
+    box-shadow    : 2px 2px 14px #666666;  /* 影の設定 */
+}
+.btndiv{
+    text-aligh:center
+}
